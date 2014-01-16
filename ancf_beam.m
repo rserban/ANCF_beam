@@ -31,9 +31,11 @@ end
 rmpath sym;
 rmpath integrators;
 
-% Animate noodle and plot coordinates of ends and middle
+% Animate noodle and plot coordinates of ends and middle as well as beam
+% length.
 animate(data, params);
 plot_points(data, params);
+plot_length(data, params);
 
 
 
